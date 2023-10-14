@@ -1,18 +1,10 @@
-node_modules/
-dist/
-*.log
-*.env
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-coverage/
-*.pid
-*.seed
-*.pid.lock
-*.log
-yarn-error.log
-*.db
-*.sqlite
-*.sqlite3
+# Ignorar directorios
+/dist/
+/node_modules/
+
+# Ignorar archivos
+/package.json
+/package-lock.json
+/README.md
+/tsconfig.json
+/tsconfig.tsbuildinfo
