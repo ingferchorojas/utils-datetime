@@ -1,0 +1,25 @@
+{
+  "name": "easy-datetime",
+  "version": "1.0.0",
+  "description": "Manipular y trabajar con fechas y horas de manera sencilla",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingferchorojas/easy-datetime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingferchorojas/easy-datetime/issues"
+  },
+  "homepage": "https://github.com/ingferchorojas/easy-datetime#readme"
+}
