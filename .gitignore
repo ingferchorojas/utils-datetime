@@ -8,3 +8,4 @@
 #README.md
 #tsconfig.json
 /tsconfig.tsbuildinfo
+/yarn.lock
