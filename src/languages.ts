@@ -1,4 +1,4 @@
-export const enum Languages {
+export enum Languages {
     AF_ZA = 'af-ZA',
     SQ_AL = 'sq-AL',
     AM_ET = 'am-ET',
