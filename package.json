@@ -1,5 +1,5 @@
 {
-  "name": "easy-datetime",
+  "name": "utils-datetime",
   "version": "1.0.0",
   "description": "Manipular y trabajar con fechas y horas de manera sencilla",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
   },  
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ingferchorojas/easy-datetime.git"
+    "url": "git+https://github.com/ingferchorojas/utils-datetime.git"
   },
   "keywords": [],
   "author": "",
