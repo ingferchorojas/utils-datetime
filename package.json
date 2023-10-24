@@ -15,8 +15,8 @@
     "type": "git",
     "url": "git+https://github.com/ingferchorojas/utils-datetime.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["date", "time", "timezone", "datetime"],
+  "author": "Fernando Rojas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ingferchorojas/easy-datetime/issues"
