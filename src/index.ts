@@ -1,5 +1,3 @@
 export { getCurrentDate } from './now'
-export { Timezones } from './timezones'
 export { dateTimeformat } from './format'
-export { Languages } from './languages'
 export { timetransform } from './timetransform'
