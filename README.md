@@ -1,13 +1,13 @@
-# easy-datetime
+# utils-datetime
 
 Manipula y trabaja con fechas y horas de manera sencilla en tu proyecto. Esta biblioteca proporciona funciones útiles para trabajar con fechas y horas de una manera fácil y flexible.
 
 ## Instalación
 
-Para instalar `easy-datetime`, simplemente ejecuta el siguiente comando en tu terminal:
+Para instalar `utils-datetime`, simplemente ejecuta el siguiente comando en tu terminal:
 
 ```bash
-npm install easy-datetime
+npm install utils-datetime
 ```
 ## Importar
 
@@ -16,7 +16,7 @@ import  {
     getCurrentDate, 
     timetransform, 
     dateTimeformat 
-}  from 'easy-datetime'
+}  from 'utils-datetime'
 ```
 
 ## Funciones Disponibles
