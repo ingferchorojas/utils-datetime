@@ -1,7 +1,7 @@
 {
   "name": "utils-datetime",
   "version": "1.0.0",
-  "description": "Manipular y trabajar con fechas y horas de manera sencilla",
+  "description": "Easily handle and work with dates and times.",
   "main": "dist/index.js",
   "devDependencies": {
     "ts-node": "^10.9.1",
