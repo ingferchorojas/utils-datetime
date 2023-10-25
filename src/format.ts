@@ -1,4 +1,4 @@
-const dateTimeformat = (date: Date, template: string, language: string = 'en-EN'): string => {
+const dateTimeFormat = (date: Date, template: string, language: string = 'en-EN'): string => {
   const formattedDate: Record<string, string | number> = {}
 
   const fullYear = date.getUTCFullYear()
@@ -44,5 +44,5 @@ const dateTimeformat = (date: Date, template: string, language: string = 'en-EN'
 }
 
 export {
-  dateTimeformat
+  dateTimeFormat
 }

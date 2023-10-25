@@ -1,3 +1,3 @@
 export { getCurrentDate } from './now'
-export { dateTimeformat } from './format'
-export { timetransform } from './timetransform'
+export { dateTimeFormat } from './format'
+export { timeTransform } from './timetransform'

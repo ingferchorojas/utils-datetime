@@ -6,7 +6,7 @@ interface ITimeDelta {
     minute?: number, 
     second?: number 
 }
-const timetransform = (date: Date, timeDelta: ITimeDelta): Date => {
+const timeTransform = (date: Date, timeDelta: ITimeDelta): Date => {
     const { year = 0, month = 0, day = 0, hour = 0, minute = 0, second = 0 } = timeDelta
 
     const newDate = new Date(date)
@@ -22,5 +22,5 @@ const timetransform = (date: Date, timeDelta: ITimeDelta): Date => {
 }
 
 export {
-    timetransform
+    timeTransform
 }

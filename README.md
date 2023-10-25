@@ -15,7 +15,7 @@ npm install utils-datetime
 import  { 
     getCurrentDate, 
     timetransform, 
-    dateTimeformat 
+    dateTimeFormat 
 }  from 'utils-datetime'
 ```
 
@@ -52,17 +52,17 @@ const options = {
   month: -1
 }
 const now = getCurrentDate('America/Asuncion')
-const timeTransform = timetransform(now, options)
+const timeTransform = timeTransform(now, options)
 console.log(now)
 // 2022-09-25T00:26:06.078Z
 ```
 
-- dateTimeformat = (date: Date, template: string, language: string = 'en-EN'): Formats the date according to the specified template and language.
+- dateTimeFormat = (date: Date, template: string, language: string = 'en-EN'): Formats the date according to the specified template and language.
 
 ```typescript
 const now = getCurrentDate('America/Asuncion')
 const template = "Today is %DAY%, %MONTH% %DD%rd of the year %YYYY%, the time is %H%:%MI% %A%"
-const format = dateTimeformat(now, template, 'es-EN')
+const format = dateTimeFormat(now, template, 'es-EN')
 console.log(format)
 // Today is Monday, October 23rd of the year 2023, the time is 10:20 PM.
 ```
@@ -70,7 +70,7 @@ console.log(format)
 ```typescript
 const now = getCurrentDate('America/Asuncion')
 const template = "Today is %DAY%, %MONTH% %DD%rd of the year %YYYY%, the time is %HH%:%MI%:%SS% with %MS% milliseconds"
-const format = dateTimeformat(now, template, 'es-EN')
+const format = dateTimeFormat(now, template, 'es-EN')
 console.log(format)
 // Today is Monday, October 23rd of the year 2023, the time is 22:20:20 with 345 milliseconds.
 ```
@@ -78,7 +78,7 @@ console.log(format)
 ```typescript
 const now = getCurrentDate('America/Asuncion')
 const template = "%DD%/%MM%/%YYYY% %HH%:%MI%"
-const format = dateTimeformat(now, template)
+const format = dateTimeFormat(now, template)
 console.log(format)
 // 23/10/2023 22:20
 // %HH% 23h format
@@ -87,7 +87,7 @@ console.log(format)
 ```typescript
 const now = getCurrentDate('America/Asuncion')
 const template = "%DD%/%MM%/%YYYY% %H%:%MI% %A%"
-const format = dateTimeformat(now, template)
+const format = dateTimeFormat(now, template)
 console.log(format)
 // 23/10/2023 10:20 PM
 // %H% 12h format
