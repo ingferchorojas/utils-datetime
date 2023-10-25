@@ -14,7 +14,7 @@ npm install utils-datetime
 ```typescript
 import  { 
     getCurrentDate, 
-    timetransform, 
+    timeTransform, 
     dateTimeFormat 
 }  from 'utils-datetime'
 ```
@@ -29,7 +29,7 @@ console.log(now)
 // 2023-10-23T22:14:49.876Z
 ```
 
-- timetransform = (date: Date, timeDelta: ITimeDelta): Performs addition or subtraction operations on a date according to the provided options.
+- timeTransform = (date: Date, timeDelta: ITimeDelta): Performs addition or subtraction operations on a date according to the provided options.
 
 ```typescript
 interface ITimeDelta {
@@ -52,8 +52,8 @@ const options = {
   month: -1
 }
 const now = getCurrentDate('America/Asuncion')
-const timeTransform = timeTransform(now, options)
-console.log(now)
+const transform = timeTransform(now, options)
+console.log(transform)
 // 2022-09-25T00:26:06.078Z
 ```
 
