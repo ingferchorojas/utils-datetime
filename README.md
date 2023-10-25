@@ -62,7 +62,7 @@ console.log(now)
 ```typescript
 const now = getCurrentDate('America/Asuncion')
 const template = "Today is %DAY%, %MONTH% %DD%rd of the year %YYYY%, the time is %H%:%MI% %A%"
-const format = dateTimeformat(now, template, 'es-ES')
+const format = dateTimeformat(now, template, 'es-EN')
 console.log(format)
 // Today is Monday, October 23rd of the year 2023, the time is 10:20 PM.
 ```
@@ -70,7 +70,7 @@ console.log(format)
 ```typescript
 const now = getCurrentDate('America/Asuncion')
 const template = "Today is %DAY%, %MONTH% %DD%rd of the year %YYYY%, the time is %HH%:%MI%:%SS% with %MS% milliseconds"
-const format = dateTimeformat(now, template, 'es-ES')
+const format = dateTimeformat(now, template, 'es-EN')
 console.log(format)
 // Today is Monday, October 23rd of the year 2023, the time is 22:20:20 with 345 milliseconds.
 ```
