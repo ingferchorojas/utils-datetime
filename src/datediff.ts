@@ -24,7 +24,7 @@ const dateDiff = (dates: DateInterface, timePeriod: TimePeriod): number => {
     const startMs = startDate.getTime()
     const endMs = endDate.getTime()
     const differenceMs = endMs - startMs > 0 ? endMs - startMs : startMs - endMs
-
+    
     switch (timePeriod) {
         case 'milliseconds':
             return differenceMs
@@ -37,15 +37,11 @@ const dateDiff = (dates: DateInterface, timePeriod: TimePeriod): number => {
         case 'days':
             return differenceMs / (1000 * 60 * 60 * 24)
         case 'weeks':
-            const weeks = differenceMs / (1000 * 60 * 60 * 24 * 7)
-            return Number((weeks).toFixed(2))
+            return differenceMs / (1000 * 60 * 60 * 24 * 7)
         case 'months':
-            // Ajuste: Usar 30.44 días para tener en cuenta variaciones en longitudes de mes.
-            const months = differenceMs / (1000 * 60 * 60 * 24 * 30.44)
-            return Number((months).toFixed(2))
+            return differenceMs / (1000 * 60 * 60 * 24 * 30.436875)
         case 'years':
-            const years = differenceMs / (1000 * 60 * 60 * 24 * 365.25)
-            return Number((years).toFixed(2))
+            return differenceMs / (1000 * 60 * 60 * 24 * 365.2425)
         default:
             throw new Error('Invalid time period')
     }
