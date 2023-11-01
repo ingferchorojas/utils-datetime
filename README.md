@@ -21,6 +21,28 @@ import  {
 
 ## Available Functions
 
+- const dateDiff = (dates: DateInterface, timePeriod: TimePeriod): is a function that calculates the time difference between two dates in milliseconds, seconds, minutes, hours, days, weeks, months, or years, depending on the specified time period.
+
+```typescript
+interface DateInterface {
+    start: Date | string
+    end: Date | string
+}
+
+type TimePeriod = 'milliseconds' | 'seconds' | 'minutes' | 'hours' | 'days' | 'weeks' | 'months' | 'years'
+```
+
+```typescript
+const dates = {
+    start: new Date('2022-01-01'),
+    end: new Date('2023-01-01')
+}
+
+const result = dateDiff(dates, 'days')
+console.log(result)
+// 365
+```
+
 - getCurrentDate = (timezone: string = 'UTC'): Gets the current date in the specified time zone.
 
 ```typescript
