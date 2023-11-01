@@ -21,7 +21,7 @@ import  {
 
 ## Available Functions
 
-- const dateDiff = (dates: DateInterface, timePeriod: TimePeriod): is a function that calculates the time difference between two dates in milliseconds, seconds, minutes, hours, days, weeks, months, or years, depending on the specified time period.
+- dateDiff = (dates: DateInterface, timePeriod: TimePeriod): is a function that calculates the time difference between two dates in milliseconds, seconds, minutes, hours, days, weeks, months, or years, depending on the specified time period.
 
 ```typescript
 interface DateInterface {
