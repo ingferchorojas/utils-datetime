@@ -1,6 +1,6 @@
 {
   "name": "utils-datetime",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Easily handle and work with dates and times.",
   "main": "dist/index.js",
   "devDependencies": {
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/ingferchorojas/utils-datetime.git"
   },
-  "keywords": ["date", "time", "timezone", "datetime"],
+  "keywords": ["date", "time", "timezone", "datetime", "backend"],
   "author": "Fernando Rojas",
   "license": "ISC",
   "bugs": {

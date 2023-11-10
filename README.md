@@ -15,7 +15,9 @@ npm install utils-datetime
 import  { 
     getCurrentDate, 
     timeTransform, 
-    dateTimeFormat 
+    dateTimeFormat,
+    dateDiff,
+    isLeapYear 
 }  from 'utils-datetime'
 ```
 
@@ -113,4 +115,16 @@ const format = dateTimeFormat(now, template)
 console.log(format)
 // 23/10/2023 10:20 PM
 // %H% 12h format
+```
+
+- const isLeapYear = (yearInterface: YearInterface): checks if a given year (after 1582) is a leap year according to the Gregorian calendar.
+
+```typescript
+type YearInterface = number | string
+```
+
+```typescript
+const leapYear = isLeapYear(2024)
+console.log(format)
+// true
 ```
