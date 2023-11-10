@@ -125,6 +125,6 @@ type YearInterface = number | string
 
 ```typescript
 const leapYear = isLeapYear(2024)
-console.log(format)
+console.log(leapYear)
 // true
 ```
