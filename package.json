@@ -1,6 +1,6 @@
 {
   "name": "utils-datetime",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Easily handle and work with dates and times.",
   "main": "dist/index.js",
   "devDependencies": {

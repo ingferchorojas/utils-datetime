@@ -17,7 +17,8 @@ import  {
     timeTransform, 
     dateTimeFormat,
     dateDiff,
-    isLeapYear 
+    isLeapYear,
+    currentWeekNumber 
 }  from 'utils-datetime'
 ```
 
@@ -127,4 +128,12 @@ type YearInterface = number | string
 const leapYear = isLeapYear(2024)
 console.log(leapYear)
 // true
+```
+
+- const currentWeekNumber = (date: Date | string): takes a Date or date string, calculates and returns the ISO week number, assuming a Monday start.
+
+```typescript
+const result = currentWeekNumber('2023-02-27')
+console.log(result)
+// 9
 ```
