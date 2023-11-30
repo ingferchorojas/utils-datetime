@@ -18,7 +18,8 @@ import  {
     dateTimeFormat,
     dateDiff,
     isLeapYear,
-    currentWeekNumber 
+    currentWeekNumber,
+    formatMilliseconds 
 }  from 'utils-datetime'
 ```
 
@@ -136,4 +137,12 @@ console.log(leapYear)
 const result = currentWeekNumber('2023-02-27')
 console.log(result)
 // 9
+```
+
+- const formatMilliseconds = (milliseconds: number | string, includeMS: boolean = false): takes a time value in milliseconds (as a string or number) and returns it as HH:MM:SS. If includeMS is true, it adds milliseconds as HH:MM:SS.MS
+
+```typescript
+const result = formatMilliseconds(3661000)
+console.log(result)
+// 01:01:01
 ```
