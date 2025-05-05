@@ -1,25 +1,31 @@
 {
-  "name": "utils-datetime",
-  "version": "0.9.5",
-  "description": "Easily handle and work with dates and times.",
-  "main": "dist/index.js",
-  "devDependencies": {
-    "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
-  },
-  "scripts": {
-    "build": "tsc",
-    "start": "ts-node src/index.ts"
-  },  
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ingferchorojas/utils-datetime.git"
-  },
-  "keywords": ["date", "time", "timezone", "datetime", "backend"],
-  "author": "Fernando Rojas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ingferchorojas/easy-datetime/issues"
-  },
-  "homepage": "https://github.com/ingferchorojas/easy-datetime#readme"
+    "name": "utils-datetime",
+    "version": "0.9.6",
+    "description": "Easily handle and work with dates and times.",
+    "main": "dist/index.js",
+    "devDependencies": {
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "ts-node src/index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ingferchorojas/utils-datetime.git"
+    },
+    "keywords": [
+        "date",
+        "time",
+        "timezone",
+        "datetime",
+        "backend"
+    ],
+    "author": "Fernando Rojas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ingferchorojas/easy-datetime/issues"
+    },
+    "homepage": "https://github.com/ingferchorojas/easy-datetime#readme"
 }
